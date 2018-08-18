@@ -8,6 +8,7 @@
 *.ide-shm
 *.pdb
 *.cache
+*.dtbcache
 
 # Temp Files
 TemporaryGeneratedFile*.cs
