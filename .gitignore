@@ -1,0 +1,25 @@
+### Custom C# gitignore
+
+# Binaries
+*.dll
+*.ide
+*.ide-wal
+*.suo
+*.ide-shm
+*.pdb
+*.cache
+
+# Temp Files
+TemporaryGeneratedFile*.cs
+*AssemblyInfo.cs
+
+# NuGet Stuff
+project.assets.json
+*.nuget.g.*
+
+# Files that might want to stay protected, unless it's useful to check them into SC later on
+applicationhost.config
+db.lock
+*.txt
+*.deps.json
+*.runtimeconfig.*
