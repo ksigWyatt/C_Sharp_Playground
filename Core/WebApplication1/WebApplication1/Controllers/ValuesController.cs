@@ -21,7 +21,8 @@ namespace WebApplication1.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            // returns the id that was given in the request -- oversimlified
+            return string.Format("value {0}", id);
         }
 
         // POST api/values
